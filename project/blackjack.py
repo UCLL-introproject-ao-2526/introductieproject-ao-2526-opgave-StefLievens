@@ -7,11 +7,16 @@ pygame.init()
 
 #game variables
 values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+
+# [dn] dit ziet er cool uit, maar is wel zeer irritant om te typen (je gaat het moeten copy pasten)
+# [dn] ['C', 'D', 'S', 'H'] is minder cool, maar wel handiger
 suits = ['♥', '♦', '♣', '♠']
 
 
 one_deck = [[v, s] for v in values for s in suits]
-decks = 4
+
+# [dn] naming can wel beter. Dit is geen deck, maar het aantal decks. bvb amount_of_decks
+decks = 4 
 
 WIDTH = 850
 HEIGHT = 950
@@ -34,6 +39,7 @@ initial_deal = False
 my_hand = []
 split_hand = []
 is_split = False
+# [dn] hier weet ik ook niet wat active_hand echt betekent van de naam
 active_hand = 1
 dealer_hand = []
 outcome = 0
@@ -46,6 +52,7 @@ results = [' ', 'PLAYER BUSTED o_O', 'PLAYER WINS!', 'DEALER WINS!', 'TIE GAME..
 
 
 #deal cards by selecting randomly from deck, and make function for one card at a time
+# [dn] maar 1 kaart maar de functie heet deal_cards?
 def deal_cards(current_hand, current_deck):
     card = random.randrange(0, len(current_deck))
     current_hand.append(current_deck[card])
@@ -295,7 +302,8 @@ while run:
                     add_score = True
                     dealer_score, player_score, split_score = 0, 0, 0
 
-            else:
+            # [dn] je zit nu zo diep in je if/else/elif dat het onduidelijk is welke else we heire hebben
+            else: 
                 #if player can hit, allow them to draw a card
                 if buttons[0].collidepoint(event.pos) and hand_active:
                     if active_hand == 1 and player_score < 21:
