@@ -57,7 +57,7 @@ de kaart is ook wat 'leeg', symbool in het midden van de kaart tonen.
 
 
 #22 mei 16:58
-tevreden met het spel, kaarten zijn opgemaakt, splitfunctie werkt.
+tevreden met het spel, kaarten zijn opgemaakt, splitfunctie werkt. 
 
 
 

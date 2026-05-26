@@ -1,0 +1,105 @@
+
+
+History of programming languages:
+
+Cobol: 
+--> businesspeople write their own applications
+
+IBM Cobol: 
+--> even worse, way too much code
+
+APL (A Programming Language): 
+--> everything on arrays - compact
+--> you need an APL keyboard to code APL
+
+Intercal: 
+--> Joke programming language (parody) - designed to be difficult - poke fun
+--> you had to say 'please' enough, but not too much or you got compiler errors
+--> didn't have 'go to' keyword - it had come from
+--> worst compiler ever 
+--> if you didn't have please give up at the end - your CPU would go up to 100% until you turned of the pc.
+
+Visual Basic:
+--> didn't do objected oriented
+
+Gupta SQLWindows:
+--> saved source code as a binary file
+
+
+Name of the language: BS - Why? Because F*** You, That's Why.
+
+Design Principles:
+--> Create the "Booby-trapped Aztec Temple of Fail"
+--> Don't trust the programmers for simple things
+--> Leave the hard things for the programmer
+--> Try to do everything
+
+Inspiration:
+PHP: 
+--> Total inconsistency
+--> Pointless variable prefixing
+--> Hassle of C++/C
+--> Performance of Altair Basic
+--> Take the € sign - sell BS-keyboard with this sign as physical key
+
+Python:
+--> Significant whitespace --> creating pure chaos with indentation level, tabs, spaces for comments
+
+
+Ruby:
+--> unless (alternative for if, but the other way arround)
+--> unless has to be ended with Greek question mark - sell keyboard which has this key next to the ;
+
+JS:
+--> Type coersion - make as many things true as possible
+--> === strict equality --> ! = ! (shopping trolley operator)
+--> 22/7 --> pie emoji 
+
+Strings:
+--> take all types of strings (ASCII, ANSI, DBCS, UTF-256, ...)
+--> every compilation will cost 1 cent via microtransactions on his site.
+
+Visual Basic:
+--> arrays with round brackets
+--> integers will be 17 bit
+
+C/C++:
+--> macro's - string substitution
+
+Static/Dynaminc typing:
+--> gradual typing (from facebook flow) --> isProbablyA / isProbablyAn / areProbably
+
+Script/Compiled:
+--> semi-compiled - EcmaScript 3
+
+Memory management:
+--> not going to Malloc - going to use Delete for every variable
+
+Rust:
+--> nothing taken from it, very close to the perfect programming language
+
+Loops:
+--> GOTO with line numbers (multiple of 42) --> refactoring tool
+
+Threads:
+--> do : and: - will run at the same time
+--> EVALUATE (from FORTH)
+
+GO:
+--> magic date format - 21 november 2014 10:05 (first date of the presentation)
+
+Vaesagod - You're welcome
+
+Matlab:
+--> echoes out any line when not ended with }
+
+Break at end of every scope
+
+Optional params when function has no params
+Prefix 69% with BS
+
+
+BS:
+--> arrays will start at -1 as 1
+
+

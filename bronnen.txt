@@ -1,0 +1,49 @@
+Reflectie bij video: https://www.youtube.com/watch?v=vcFBwt1nu2U
+
+In komische presentatie The Worst Programming Language Ever maakt Mark Rendle een satire van de geschiedenis van programmatalen. Zijn doel is om deze allemaal de combineren, het slechtste uit deze programmatalen te halen en zo dus de slechtste/moeilijkste programmataal ooit te ontwikkelen.
+
+Zo begint hij met COBOL, een taal die ooit was ontworpen zodat zakenmensen hun eigen applicaties konden schrijven, wat later door IBM COBOL nog erger werd gemaakt door de toevoeging van een immense hoeveelheid boilerplate-code. 
+
+Hierna bespreekt APL (A Programming Language), waarin alles om arrays draait. Deze taal is zo compact dat complexe logica in één regel past, maar het vereist wel een speciaal, onleesbaar APL-toetsenbord om zelfs überhaupt te kunnen coderen.
+
+De spreker bespreekt ook vroege "grap-talen" zoals Intercal, een parodie die puur ontworpen is om het de programmeur moeilijk te maken. In Intercal moest je de compiler letterlijk smeken door vaak genoeg PLEASE te typen. Deed je dit te weinig (of juist te veel), dan kreeg je compilerfouten. Bovendien kende de taal geen GOTO maar een COME FROM-statement, en als je niet beleefd genoeg afsloot, schoot je CPU naar 100% totdat je de computer uitzette. 
+
+Ookk passeren Visual Basic (dat destijds niets met objectgeoriënteerd programmeren te maken wilde hebben) en Gupta SQLWindows (dat broncode  opsloeg als een binair bestand in plaats van platte tekst). 
+
+De programmataal 'BS'
+Geïnspireerd door al deze talen introduceert Rendle zijn eigen programmataal genaamd BS. Op de vraag waarom de taal zo heet, is het officiële motto simpel: "Because F You, That's Why."*
+
+De onderliggende ontwerpprincipes zijn er niet op gericht om een 'pit of success' te creëren, maar juist een "met boobytraps volgehangen Azteekse tempel van falen". De taal vertrouwt de programmeur niet met simpele basistaken, laat de echt complexe problemen (zoals geheugenbeheer) juist doelbewust aan de ontwikkelaar over, en probeert ondertussen een universele taal voor alles te zijn.
+
+Om dit te bereiken, steelt BS de slechtste eigenschappen van deze bestaande talen:
+
+PHP: BS neemt de totale inconsistentie in naamgeving en de zinloze prefixes voor variabelen over. Het combineert het gedoe van C/C++ met de belabberde prestaties van Altair Basic. Variabelen beginnen verplicht met een Euro-teken (€). Dit is zo onhandig te typen dat Rendle er direct een verdienmodel aan koppelt: hij verkoopt speciale BS-toetsenborden met een fysieke €-knop.
+
+Python: De taal maakt gebruik van significant whitespace om pure chaos te creëren. De precieze regels voor het inspringen met tabs en spaties zijn onnavolgbaar, en zelfs commentaren worden bepaald door een specifiek aantal spaties aan het begin van een regel.
+
+Ruby: Het verwarrende unless-statement (het omgekeerde van if) is aanwezig. Een unless-regel moet in BS verplicht worden afgesloten met een Grieks vraagteken (dat er exact uitziet als een puntkomma ;). Ook deze toets zit uiteraard op het dure, speciaal te verkopen toetsenbord, maar deze zal naast de puntkomma komen te staan om het toch nog wat moeilijker te maken.
+
+JavaScript: De beruchte type coercion is tot het uiterste doorgevoerd om zoveel mogelijk onlogische vergelijkingen 'waar' te maken. Voor een echt strikte vergelijking introduceert BS de ! = ! operator, beter bekend als de shopping trolley operator omdat het eruitziet als een poppetje dat een winkelwagen duwt. Daarnaast resulteert de wiskundige berekening 22/7 automatisch in een taart-emoji (🥧), omdat pie klinkt als pi.
+
+Visual Basic & C/C++: Arrays worden aangeroepen met ronde haakjes () in plaats van rechte haken, en integers zijn om onverklaarbare redenen strikt 17-bits. Macro's uit C/C++ zijn aanwezig, maar werken op basis van sting-substitution via complexe Regular Expressions (RegEx), waardoor je de code onherkenbaar kunt verminken.
+
+Types, Geheugen en Loops
+Qua typering maakt BS gebruik van gradual typing (geïnspireerd door Facebook Flow), wat resulteert in twijfelachtige type-definities zoals isProbablyA, isProbablyAn of areProbably. De taal is semi-gecompileerd en compileert direct naar het verouderde EcmaScript 3.
+
+Voor het geheugenbeheer wordt malloc overgeslagen; in plaats daarvan dwingt de taal je om aan het einde van een scope handmatig de Delete-functie aan te roepen voor werkelijk elke gebruikte variabele. Over de taal Rust is Rendle kort: daar is niets van overgenomen, aangezien die taal veel te dicht bij perfectie ligt.
+
+Loops worden in BS opgelost via een ouderwetse GOTO in combinatie met regelnummers. Om het extra gecompliceerd te maken, moeten alle regelnummers verplicht een veelvoud van 42 zijn. Voeg je een regel toe? Dan moet je alle opvolgende nummers handmatig aanpassen, tenzij je zijn peperduur gefabriceerde refactoring-tool aanschaft. Multithreading wordt ondersteund via de syntax do : and:, die code tegelijkertijd laat draaien, gecombineerd met het EVALUATE-concept uit de taal FORTH.
+
+Absurde features en de uitsmijter
+BS zit vol met andere frustrerende toevoegingen (zoals arrays die met -1 beginnen). Geïnspireerd door het vreemde datumformaat van Go (dat werkt met een magische Amerikaanse datum), gebruikt BS zijn eigen magische datum voor tijdformatting: 21 november 2014 om 10:05, exact het moment van de allereerste presentatie van deze lezing.
+
+Tot slot ondersteunt de taal alle denkbare string-encodings (zoals ASCII, ANSI en DBCS), inclusief een zelfbedachte UTF-256 variant die groot genoeg is om elke afbeelding in het zonnestelsel een eigen karakter-ID te geven. Het addertje onder het gras? Elke compilatie kost je via microtransacties op Rendle's website verplicht 1 cent.
+
+Op het einde worden nog enkele voorstellen uit het publiek gevraagd. Hier gaat Rendle graag op in:
+Een van de toevoegingen is dat elke lijn die niet met } eindigt, zal "geëchoed" worden.
+Een ander voorstel is om elke scope te eindigen met een break.
+Een van de laatste was dat 69% met de prefix BS zal moeten starten.
+
+Ik vond nog best een leuke presentatie. Het is zeer duidelijk dat de spreker ervaring en een bepaalde frustratie spreekt. Het is moeilijk om punten te noemen waarbij ik het niet eens ben, aangezien programmeren zelf niet mijn beste vak is en dus ook helemaal niet zoveel programmeertalen ken. Maar aan de reactie van het publiek te zien, slaat hij wel de spijker op de kop. Zijn presentatiestijl is leuk, luchtig, heel anders als die uit sommige andere filmpjes. Hij is gewend van voor een publiek te staan.
+
+Als conclusie kan ik alleen maar zeggen dat ik hoop dat zijn programmeertaal nooit een realiteit zal worden. Hij komt over als een ervaren developper met een goed gevoel voor humor. 
